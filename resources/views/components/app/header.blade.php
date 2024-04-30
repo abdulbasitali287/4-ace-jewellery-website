@@ -1,5 +1,5 @@
 <header
-    class='flex shadow-lg py-8 px-4 sm:px-10 bg-slate-950 font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
+    class='flex shadow-lg py-8 px-4 sm:px-10 bg-[#130D08] font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
     <div class='flex flex-wrap items-center justify-between gap-4 w-full'>
         <a href="javascript:void(0)"
             class="lg:absolute max-lg:left-10 lg:top-2/4 lg:left-2/4 lg:-translate-x-1/2 lg:-translate-y-1/2">
@@ -27,16 +27,16 @@
                     </a>
                 </li>
                 <li class='max-lg:border-b max-lg:py-3 px-3'>
-                    <a href='javascript:void(0)' class='text-white block text-[14px] uppercase'>Home</a>
+                    <a href='javascript:void(0)' class='text-white block text-xs font-thin uppercase'>JEWELRY</a>
                 </li>
                 <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
-                        class='text-white block text-[14px] uppercase'>Team</a>
+                        class='text-white block text-xs font-thin uppercase'>COLLECTIONS</a>
                 </li>
                 <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
-                        class='text-white block text-[14px] uppercase'>Feature</a>
+                        class='text-white block text-xs font-thin uppercase'>NEWSROOM</a>
                 </li>
                 <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
-                        class='text-white block text-[14px] uppercase'>Blog</a>
+                        class='text-white block text-xs font-thin uppercase'>CONTACT</a>
                 </li>
             </ul>
         </div>
