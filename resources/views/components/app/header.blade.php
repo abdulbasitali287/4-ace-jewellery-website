@@ -104,8 +104,7 @@
     </div>
 </header> --}}
 
-
-
+{{-- updated navbar --}}
 <header class='border-b font-[sans-serif] tracking-wide relative z-50'>
     <div class='flex flex-wrap items-center gap-4 px-10 py-4 relative bg-[#130D08] min-h-[70px]'>
       <a href='javascript:void(0)' class='hidden max-lg:block'><img src="{{ asset('app/assets/images/logo/logo-1.png') }}"
