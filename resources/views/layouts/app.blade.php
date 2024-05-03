@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jewelry</title>
     <link rel="stylesheet" href="{{ asset('app/assets/images/logo/logo-1.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ asset('app/assets/css/custom-styles.css') }}">
     @vite('resources/css/app.css')
+    @stack('styles')
 </head>
 
 <body>
@@ -25,7 +27,8 @@
 
     {{-- footer component --}}
     <x-app.footer></x-app.footer>
-    
+
+    <script src="{{ asset('app/assets/js/navbar.js') }}"></script>
     @stack('js')
 </body>
 

@@ -1,5 +1,5 @@
 {{-- banner section --}}
-<div class="relative h-screen text-white overflow-hidden mt-[-5rem]">
+<div class="relative sm:h-screen text-white overflow-hidden mt-[-5rem]">
     <div class="absolute inset-0">
         <img src="{{ $attributes->get('src') }}" alt="Background Image" class="object-cover object-center w-full h-full" />
         @if (Route::currentRouteName() != 'index')
@@ -13,7 +13,7 @@
     @else
         <div class="w-full absolute left-0 bottom-0 z-10 flex flex-col justify-center items-center">
             <a href="#"
-            class="bg-[#9D5933] bg-gradient-to-r hover:bg-[#F4935E] font-thin mx-auto duration-500 py-2 px-4 rounded-lg mb-5">EXPLORE
+            class="hover:bg-slate-950 bg-black hover:shadow-md font-semibold duration-300 mx-auto py-2 px-4 rounded-lg mb-5">EXPLORE
                 OUR COLLECTION NOW</a>
         </div>
     @endif

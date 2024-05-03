@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hover-change-class:hover{
+    background-image: url("../images/hover-card-image.png");
+    transition: background-image 1s ease;
+}
+.hover-change-class:hover a#status{
+    background-color: #0f0202;
+    padding-block: 8px;
+    transition: background-color 1s ease;
+}
+.hover-change-class:hover img{
+    opacity: 0;
+}
+.hover-change-class:hover p{
+    color: #ffff;
+}
+.hover-change-class:hover strong{
+    color: #ffff;
+}

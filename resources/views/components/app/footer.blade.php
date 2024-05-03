@@ -1,4 +1,4 @@
-<footer class="sm:pt-14 sm:pb-24 bg-[#130D08]">
+<footer class="sm:pt-14 sm:pb-24 bg-black">
     <div class="container md:flex lg:gap-x-2 mx-auto">
         <div class="lg:basis-1/3 md:basis-1/2 text-center">
             <h6 class="lg:text-xl text-white py-4">ACCOUNT</h6>
