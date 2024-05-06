@@ -28,18 +28,18 @@
             <li class='max-lg:border-b max-lg:py-3 px-3'>
                 <a href='javascript:void(0)' class='text-white block text-xs font-thin uppercase'>JEWELRY</a>
             </li>
-            <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
+            <li class='max-lg:border-b max-lg:py-3 px-3'><a href='{{ url('all-collections') }}'
                     class='text-white block text-xs font-thin uppercase'>COLLECTIONS</a>
             </li>
-            <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
+            <li class='max-lg:border-b max-lg:py-3 px-3'><a href='{{ url('newsroom') }}'
                     class='text-white block text-xs font-thin uppercase'>NEWSROOM</a>
             </li>
-            <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
+            <li class='max-lg:border-b max-lg:py-3 px-3'><a href='{{ url('contact') }}'
                     class='text-white block text-xs font-thin uppercase'>CONTACT</a>
             </li>
           </ul>
 
-          <a href='javascript:void(0)'
+          <a href='{{ url('/') }}'
             class='m-auto absolute lg:left-2/4 lg:top-[-20px] lg:-translate-x-1/2 max-lg:hidden'><img
               src="{{ asset('app/assets/images/logo/logo-1.png') }}" alt="logo" class='w-32' /></a>
 

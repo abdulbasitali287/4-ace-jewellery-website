@@ -20,7 +20,9 @@ export default {
       backgroundImage: ['hover'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
 
 // .btn-gradient-orange {

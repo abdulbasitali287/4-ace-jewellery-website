@@ -6,7 +6,7 @@
                     <h1 class="md:text-4xl text-3xl text-white text-center {{ !$attributes->has('buttonText') ? 'md:pb-20 pb-10' : '' }}">{{ $attributes->get('title') }}</h1>
                 </div>
                 <div class="row-auto flex flex-col text-center">
-                    <p class="text-[#FFFFFF] opacity-80 text-center md:px-40 px-10 {{ !$attributes->has('buttonText') ? 'md:pb-32 pb-10' : '' }}">{{ $attributes->get('paragraph') }}</p>
+                    <p class="text-[#FFFFFF] opacity-80 text-lg text-center md:px-40 px-10 {{ !$attributes->has('buttonText') ? 'md:pb-32 pb-10' : '' }}">{{ $attributes->get('paragraph') }}</p>
                     @if ($attributes->has('buttonText'))
                         <a href="#" class="bg-gradientButton hover:bg-gradientButtonHover z-50 mx-auto text-white font-semibold duration-300 transition-all py-4 px-10 rounded-full sm:my-10 my-5">{{ $attributes->get('buttonText') }}</a>
                     @endif

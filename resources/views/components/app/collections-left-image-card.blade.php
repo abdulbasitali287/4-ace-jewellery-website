@@ -4,8 +4,8 @@
     </div>
     <div class="w-full pt-4">
         <div class="px-5">
-            <h1 class="font-light text-4xl pb-2 text-[#FFFFFF] opacity-95 leading-9">{{ $attributes->has('heading') ? $attributes->get('heading') : '' }}</h1>
-            <p class="pb-10 font-light text-xl text-[#DEDEDE] opacity-70 leading-6">
+            <h1 class="font-light text-4xl pb-2 text-[#FFFFFF] leading-9">{{ $attributes->has('heading') ? $attributes->get('heading') : '' }}</h1>
+            <p class="pb-10 font-light text-xl text-[#DEDEDE] leading-6">
                 <span>
                     {{ $attributes->has('paragraphOne') ? $attributes->get('paragraphOne') : '' }}
                 </span>

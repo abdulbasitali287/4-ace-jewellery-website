@@ -5,7 +5,7 @@
         <x-app.banner src="{{ asset('app/assets/images/banner/collections-banner.png') }}" text="SAPPHIRE"></x-app.banner>
 
         {{-- card section 02 --}}
-        <section class="bg-black border border-orange-300 border-opacity-45">
+        <section class="bg-black border-y border-orange-300 border-opacity-45">
             <div class="row-auto py-10">
                 <div class="container mx-auto">
                     <x-app.collections-left-image-card src="{{ asset('app/assets/images/collections/collection-card-image-1.png') }}" heading="INDOMPTABLES DE CARTIER BRACELET" subHeading="STORY" paragraphOne="Indomptables de Cartier Tiger and Giraffe bracelet, yellow gold 750/1000, black lacquer, set with tsavorite garnet and onyx. Please note that the carat weight, number of stones and product dimensions will vary based on the size of the creation you order. For detailed information please contact us." paragraphTwo="Invincible and alluring, the Panthère de Cartier imprints her character and power on the Maison's bracelets..."></x-app.collections-left-image-card>
@@ -20,13 +20,13 @@
             <div class="row-auto">
                 <div class="container mx-auto">
                     <div class="pb-16 text-center">
-                        <a href="#" class="bg-gradientButton hover:bg-gradientButtonHover  text-white font-semibold duration-300 transition-all py-4 px-14 rounded-full sm:my-10 my-5">EXPLORE DE CARTIER RINGS</a>
+                        <a href="#" class="bg-gradientButton hover:bg-gradientButtonHover  text-white font-semibold duration-300 transition-all py-4 px-14 rounded-full sm:my-10 my-5">BACK TO COLLECTIONS</a>
                     </div>
                 </div>
             </div>
         </section>
 
         {{-- about card section 03 --}}
-        <x-app.about-card-section url="url('{{ asset('app/assets/images/about-image-1.jpg') }}')" title="OUR STORY" buttonText="EXPLORE OUR COLLECTION NOW" paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sunt aut expedita ratione nihil incidunt minima illo sint doloribus, rerum sit fugit voluptates quaerat blanditiis dolore nesciunt qui provident nulla numquam harum ducimus cumque praesentium. Nobis facere officia eius odit quo, aliquid placeat doloremque veniam nostrum ipsa. Maxime beatae eum ducimus tempore rem praesentium iusto illo quo consectetur minus enim eveniet hic inventore quos deserunt, porro itaque sint, voluptate blanditiis aperiam id explicabo in qui dolorem. Numquam enim suscipit modi error, porro eaque recusandae ut cupiditate debitis blanditiis repellendus rem totam aut vitae illo maiores autem sapiente fugit iste officia quis ipsa temporibus pariatur? Expedita incidunt praesentium harum porro officiis nostrum fuga perspiciatis iste, quis consequatur minima deleniti quas animi et. Culpa, placeat corporis laboriosam quo amet suscipit enim doloremque inventore esse, blanditiis reiciendis nisi, repellendus asperiores voluptatum sequi. Architecto blanditiis magnam ipsa? Delectus nisi iste mollitia aut tempora tempore?"></x-app.about-card-section>
+        <x-app.about-card-section url="url('{{ asset('app/assets/images/about-image-1.jpg') }}')" title="Our Story" buttonText="EXPLORE OUR COLLECTION NOW" paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sunt aut expedita ratione nihil incidunt minima illo sint doloribus, rerum sit fugit voluptates quaerat blanditiis dolore nesciunt qui provident nulla numquam harum ducimus cumque praesentium. Nobis facere officia eius odit quo, aliquid placeat doloremque veniam nostrum ipsa. Maxime beatae eum ducimus tempore rem praesentium iusto illo quo consectetur minus enim eveniet hic inventore quos deserunt, porro itaque sint, voluptate blanditiis aperiam id explicabo in qui dolorem."></x-app.about-card-section>
     </div>
 @endsection

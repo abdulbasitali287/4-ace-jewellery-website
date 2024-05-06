@@ -49,7 +49,7 @@
                     <div class="row-auto text-center">
                         {!! Form::open() !!}
                             <div class="flex relative justify-center">
-                                <input type="email" class="outline-none rounded-l-3xl ps-3 text-sm" placeholder="Your Email">
+                                <input type="email" class="outline-none rounded-l-3xl text-sm px-10 placeholder:text-center" placeholder="Your Email">
                                 <button type="submit" class="bg-gradientButton hover:bg-gradientButtonHover duration-300 text-white px-8 rounded-r-3xl py-1">SUBSCRIBE</button>
                             </div>
                         {!! Form::close() !!}

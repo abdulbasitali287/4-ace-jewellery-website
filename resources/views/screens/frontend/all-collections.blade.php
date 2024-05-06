@@ -6,10 +6,10 @@
             <div class="container mx-auto">
                 <div class="relative w-full h-screen">
                     <div class="w-full h-full py-2">
-                        <img src="{{ asset('app/assets/images/banner/sapphire.jpg') }}" class="w-full h-full bg-cover rounded-3xl border border-orange-400 border-opacity-50" alt="">
+                        <img src="{{ asset('app/assets/images/banner/collections-banner.png') }}" class="w-full h-full object-cover rounded-3xl border border-orange-400 border-opacity-50" alt="">
                     </div>
                     <div class="absolute inset-0 flex flex-col justify-end items-center">
-                        <h1 class="md:text-4xl sm:text-2xl text-2xl font-thin pb-8 text-white text-center opacity-100 tracking-wide">SAPPHIRE</h1>
+                        <h1 class="md:text-4xl sm:text-2xl text-2xl font-semibold pb-20 text-white text-center opacity-100 tracking-wide">SAPPHIRE</h1>
                     </div>
                 </div>
             </div>
@@ -46,6 +46,6 @@
         </section>
 
         {{-- about card section 03 --}}
-        <x-app.about-card-section url="url('{{ asset('app/assets/images/about-image-1.jpg') }}')" title="OUR STORY" buttonText="EXPLORE OUR COLLECTION NOW" paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sunt aut expedita ratione nihil incidunt minima illo sint doloribus, rerum sit fugit voluptates quaerat blanditiis dolore nesciunt qui provident nulla numquam harum ducimus cumque praesentium. Nobis facere officia eius odit quo, aliquid placeat doloremque veniam nostrum ipsa. Maxime beatae eum ducimus tempore rem praesentium iusto illo quo consectetur minus enim eveniet hic inventore quos deserunt, porro itaque sint, voluptate blanditiis aperiam id explicabo in qui dolorem. Numquam enim suscipit modi error, porro eaque recusandae ut cupiditate debitis blanditiis repellendus rem totam aut vitae illo maiores autem sapiente fugit iste officia quis ipsa temporibus pariatur? Expedita incidunt praesentium harum porro officiis nostrum fuga perspiciatis iste, quis consequatur minima deleniti quas animi et. Culpa, placeat corporis laboriosam quo amet suscipit enim doloremque inventore esse, blanditiis reiciendis nisi, repellendus asperiores voluptatum sequi. Architecto blanditiis magnam ipsa? Delectus nisi iste mollitia aut tempora tempore?"></x-app.about-card-section>
+        <x-app.about-card-section url="url('{{ asset('app/assets/images/about-image-1.jpg') }}')" title="Our Story" buttonText="EXPLORE OUR COLLECTION NOW" paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sunt aut expedita ratione nihil incidunt minima illo sint doloribus, rerum sit fugit voluptates quaerat blanditiis dolore nesciunt qui provident nulla numquam harum ducimus cumque praesentium. Nobis facere officia eius odit quo, aliquid placeat doloremque veniam nostrum ipsa. Maxime beatae eum ducimus tempore rem praesentium iusto illo quo consectetur minus enim eveniet hic inventore quos deserunt, porro itaque sint, voluptate blanditiis aperiam id explicabo in qui dolorem."></x-app.about-card-section>
     </div>
 @endsection

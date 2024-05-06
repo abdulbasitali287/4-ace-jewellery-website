@@ -1,7 +1,7 @@
 <div class="hover-change-class bg-no-repeat bg-cover flex flex-col relative w-full pb-4 m-0 p-0 border-gray-400 border-opacity-50 {{ $attributes->get('position') }}">
     <div class="relative flex justify-center w-full h-[360px]">
         <img src="{{ $attributes->get('src') }}"
-            class="object-cover rounded-2xl sm:w-96 w-full h-96" alt="">
+            class="object-cover rounded-2xl h-full" alt="">
     </div>
     <div class="flex lg:flex-row flex-col ps-4">
         <div class="lg:flex-1 lg:w-3/4 w-full text-white">

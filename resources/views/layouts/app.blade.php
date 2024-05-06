@@ -28,6 +28,9 @@
     {{-- footer component --}}
     <x-app.footer></x-app.footer>
 
+    {{-- reCaptcha --}}
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
     <script src="{{ asset('app/assets/js/navbar.js') }}"></script>
     @stack('js')
 </body>
